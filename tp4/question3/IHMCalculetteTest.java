@@ -91,7 +91,7 @@ public class IHMCalculetteTest extends junit.framework.TestCase{
         }
     }
 
-  
+
 
     public void test_IHMCalculette_soustraction() throws Exception{
         try{
@@ -126,8 +126,8 @@ public class IHMCalculetteTest extends junit.framework.TestCase{
         }
     }
 
-   
-	
+
+
     public void test_IHMCalculette_MauvaisFormatDuNombre() throws Exception{
         try{
             Container panel = f.getContentPane();
@@ -162,7 +162,7 @@ public class IHMCalculetteTest extends junit.framework.TestCase{
         }
     }
 
-   
+
 
     public void test_IHMCalculette_division() throws Exception{
         try{
@@ -197,7 +197,7 @@ public class IHMCalculetteTest extends junit.framework.TestCase{
         }
     }
 
-   
+
 
     private void empiler(String str) throws Exception{
         Container panel = f.getContentPane();
@@ -306,5 +306,5 @@ public class IHMCalculetteTest extends junit.framework.TestCase{
         robot.delay(10);
     }//end mouseMoveAndClickClick
 
-  
+
 }

@@ -15,7 +15,7 @@ public class IHMQuestion2_1Test extends junit.framework.TestCase
     private Robot robot;
 
     public void test_presence_fichiers_question2() {
-        try{  
+        try{
             Class.forName("question2.IHMQuestion2_1");
             Class.forName("question2.JButtonObserver");
             //Class.forName("question2.JMouseObserver");
@@ -111,7 +111,7 @@ public class IHMQuestion2_1Test extends junit.framework.TestCase
 
     }
 
-   
+
     public void mouseMoveAndClick(int x, int y){
         robot.mouseMove( x,y);
 
